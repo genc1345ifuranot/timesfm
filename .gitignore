@@ -3,7 +3,6 @@ dist/
 __pycache__/
 *.egg-info/
 checkpoints/
-peft_checkpoints/
 wandb/
 datasets/
 results/

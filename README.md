@@ -22,12 +22,12 @@ This open version is not an officially supported Google product.
     install timesfm==1.3.0` to install an older version of this package to load
     them.
 
-## Update - Apr. 8, 2026
+## Update - Apr. 9, 2026
 
-Added PEFT (LoRA/DoRA) fine-tuning pipeline for TimesFM 2.5 with multi-GPU
-support. See [`peft/`](peft/) for docs and usage. Also added unit tests
-(`tests/`), fixed per-input ridge regression in XReg to prevent data leakage,
-and incorporated several community fixes.
+Added fine-tuning example using HuggingFace Transformers + PEFT (LoRA) — see
+[`timesfm-forecasting/examples/finetuning/`](timesfm-forecasting/examples/finetuning/).
+Also added unit tests (`tests/`), fixed per-input ridge regression in XReg to
+prevent data leakage, and incorporated several community fixes.
 
 ## Update - Mar. 19, 2026
 
@@ -56,7 +56,7 @@ Since the Sept. 2025 launch, the following improvements have been completed:
 1.  ✅ Flax version of the model for faster inference.
 2.  ✅ Covariate support via XReg (see Oct. 2025 update).
 3.  ✅ Documentation, examples, and agent skill (see `timesfm-forecasting/`).
-4.  ✅ PEFT fine-tuning pipeline with LoRA/DoRA and multi-GPU support (see `peft/`).
+4.  ✅ Fine-tuning example with LoRA via HuggingFace Transformers + PEFT (see `timesfm-forecasting/examples/finetuning/`).
 5.  ✅ Unit tests for core layers, configs, and utilities (see `tests/`).
 
 ### Install
