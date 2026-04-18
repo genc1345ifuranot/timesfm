@@ -38,6 +38,8 @@ xreg = [
 notebooks = [
     "pandas>=2.0.0",
     "matplotlib>=3.7.0",
+    "jupyterlab>=4.0.0",
+    "ipywidgets>=8.0.0",
 ]
 
 [tool.ruff]
