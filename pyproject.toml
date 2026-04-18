@@ -34,6 +34,11 @@ xreg = [
     "jax[cuda]",
     "scikit-learn",
 ]
+# Personal note: added pandas as an optional dep for easier data loading in notebooks
+notebooks = [
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+]
 
 [tool.ruff]
 line-length = 88
@@ -42,4 +47,3 @@ indent-width = 2
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
-
