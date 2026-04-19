@@ -34,3 +34,8 @@ pytest v1/tests/
 ```
 
 See `README.md` for full developer setup.
+
+## Personal notes
+
+- I'm using this primarily for experimenting with financial time-series data (daily stock prices).
+- The v1 notebooks in `v1/` are a good starting point for understanding the model internals.
