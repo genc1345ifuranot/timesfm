@@ -39,3 +39,5 @@ See `README.md` for full developer setup.
 
 - I'm using this primarily for experimenting with financial time-series data (daily stock prices).
 - The v1 notebooks in `v1/` are a good starting point for understanding the model internals.
+- For stock data experiments, I've been using a context length of 512 and horizon of 10 (next ~2 trading weeks).
+- Tip: normalize price series to returns (pct_change) before feeding into the model — improves results noticeably.
